@@ -55,6 +55,10 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'config.wsgi.application'
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://ella-halal.uz',
+]
+
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
