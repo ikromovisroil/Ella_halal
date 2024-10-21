@@ -1,0 +1,1 @@
+certbot --nginx -d ella-halal.uz -d www.ella-halal.uz
